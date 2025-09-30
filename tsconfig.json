@@ -11,7 +11,8 @@
             "@/components/*": ["components/*"],
             "@/modules/*": ["modules/*"],
             "@/ui-kit/*": ["ui-kit/*"],
-            "@/utils/*": ["utils/*"]
+            "@/utils/*": ["utils/*"],
+            "@/*": ["*"]
         },
         "allowJs": true,
         "skipLibCheck": true,
