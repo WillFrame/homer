@@ -2,10 +2,13 @@ import React from 'react';
 
 import {Component} from './types';
 import Theme from './components/theme';
+import ReduxProvider from './components/redux';
 
 const PageProvider: Component = ({children}) => (
     <Theme>
-        {children}
+        <ReduxProvider>
+            {children}
+        </ReduxProvider>
     </Theme>
 );
 
